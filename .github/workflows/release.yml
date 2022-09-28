@@ -11,15 +11,15 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v1
         with:
           fetch-depth: 0
       -
         name: Set up Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v1
       -
         name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v3
+        uses: goreleaser/goreleaser-action@v1
         with:
           # either 'goreleaser' (default) or 'goreleaser-pro'
           distribution: goreleaser
