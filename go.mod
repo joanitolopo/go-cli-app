@@ -1,6 +1,6 @@
 module github.com/joanitolopo/go-cli-app.git
 
-go 1.19
+go 1.15
 
 require github.com/spf13/cobra v1.5.0
 
